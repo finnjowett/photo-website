@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  background-color: purple;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+ul li {
+  padding: 0.5rem 1rem;
+}
+ul li a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+.search input,
+.search button {
+  font-size: 2rem;
+  padding: 0.25rem;
+  border: 3px solid black;
+}
+.search button {
+  background-color: purple;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: purple;
+}/*# sourceMappingURL=style.css.map */
