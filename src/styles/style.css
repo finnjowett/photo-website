@@ -52,4 +52,29 @@ ul li a {
   align-items: center;
   font-size: 1.5rem;
   background-color: purple;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pictures .picture {
+  padding: 1rem;
+  width: 400px;
+}
+.pictures .picture .image {
+  overflow: hidden;
+  height: 40vh;
+}
+.pictures .picture .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease;
+}
+.pictures .picture .image img:hover {
+  transform: scale(1.25);
 }/*# sourceMappingURL=style.css.map */
