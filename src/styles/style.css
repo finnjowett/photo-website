@@ -13,6 +13,21 @@ ul {
   list-style-type: none;
 }
 
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.more button {
+  padding: 0.5rem 0.8rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}
+
 nav {
   background-color: purple;
 }
